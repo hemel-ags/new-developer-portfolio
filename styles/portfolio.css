@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.text-primary {
+  color: #fd6e0a;
+}
+
+.btn-primary {
+  color: var(--White-Color, #fff);
+  font-weight: 700;
+  font-size: 20px;
+  border: 0;
+  padding: 18px 35px;
+  height: 64px;
+  border-radius: 5px;
+  background: #fd6e0a;
+}
+
+/* Header and Navigation Styles */
+
+header {
+  background: #fff8f3;
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
+  background-repeat: no-repeat;
+  background-position: bottom, left;
+  background-position-x: right, 3%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 200px;
+}
+
+nav li {
+  list-style: none;
+  margin: 0px 50px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav-title {
+  font-size: 45px;
+  font-weight: 800;
+}
+
+/* Banner Styles */
+
+.banner {
+  margin: 0 80px 0 200px;
+  display: flex;
+  align-items: center;
+}
+
+.banner-title {
+  font-size: 85px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.banner-sub-title {
+  color: var(--Dark-02, #474747);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.banner p {
+  color: var(--Dark-03, #757575);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.btn-secondary {
+  border-radius: 5px;
+  border: 1px solid #fd6e0a;
+  height: 64px;
+  color: #fd6e0a;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px;
+  margin-left: 30px;
+  background-color: #fff8f3;
+}
+
+/* Main Section */
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.section-description {
+  text-align: center;
+  color: var(--Dark-03, #757575);
+  margin-bottom: 30px;
+}
+
+/* About Me */
+
+.about-me {
+  margin-top: 130px;
+  border-radius: 10px;
+  background: #fff8f3;
+  padding: 130px 150px;
+}
+
+table {
+  margin: 0 auto;
+}
+
+th,
+td {
+  padding: 0 40px;
+  text-align: center;
+}
+td {
+  color: var(--Dark-03, #757575);
+}
