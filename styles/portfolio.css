@@ -93,6 +93,10 @@ nav ul {
 
 /* Main Section */
 
+section {
+  margin-top: 130px;
+}
+
 main {
   max-width: 1140px;
   margin: 0 auto;
@@ -102,7 +106,8 @@ main {
   text-align: center;
   font-size: 35px;
   font-weight: 700;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+  /* margin-top: 400px; */
 }
 
 .section-description {
@@ -114,10 +119,9 @@ main {
 /* About Me */
 
 .about-me {
-  margin-top: 130px;
   border-radius: 10px;
   background: #fff8f3;
-  padding: 130px 150px;
+  padding: 130px 150px 130px 150px;
 }
 
 table {
@@ -142,10 +146,6 @@ td {
   padding: 0 150px;
 }
 
-.what-i-do {
-  margin-top: 130px;
-}
-
 .skill-container {
   display: flex;
   gap: 24px;
@@ -167,4 +167,46 @@ td {
 .skill p {
   color: var(--Dark-03, #757575);
   font-size: 16px;
+}
+
+/* Resume Styles */
+
+.resume-content {
+  display: flex;
+  gap: 24px;
+}
+
+.resume-title {
+  color: var(--Dark-02, #474747);
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.resume-items .title {
+  color: var(--Dark-02, #474747);
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.resume-items .sub-title {
+  color: var(--Dark-03, #757575);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.resume-items .description {
+  color: var(--Dark-03, #757575);
+  font-size: 16px;
+  font-weight: 400;
+  padding-right: 40px;
+}
+
+hr {
+  margin: 30px 0 30px 0;
+}
+
+.resume-btn {
+  text-align: center;
+  margin-top: 50px;
 }
